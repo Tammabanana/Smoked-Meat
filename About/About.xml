@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<ModMetaData>
+  <name>[A16] Smokepit and Jerky</name>
+  <author>Tammabanana</author>
+  <targetVersion>0.16.1386</targetVersion>
+  <description>Meat can be preserved by drying and smoking it. This is the campfire, modified to: use less wood, and more slowly; create much less heat; die faster in the rain; smoke meat into jerky. Smoking meat takes a long time, but you can make a lot simultaneously.
+  
+  Also adds a couple of recipes for using the jerky to make soup (fine meal x5) and kibble.
+  
+12/16/16: I currently plan to keep this updated for new alphas, but I'm unlikely to add anything new to it. The way in which I've added on to it has meandered off into totally different directions, so I'll make a different mod of that, and leave this mod as is.
+   
+   </description>
+</ModMetaData>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<RecipeDefs>
+
+  <RecipeDef>
+		<defName>CookSoupFine</defName>
+		<label>cook hearty soup</label>
+		<description>Cooks a pot of hearty soup from a combination of smoked meat and raw plant ingredients. A far more pleasant way to eat that meat, though it takes a while for it to soften up into that state. Makes enough for 5.</description>
+		<jobString>Cooking a potful of hearty soup.</jobString>
+		<workSpeedStat>CookSpeed</workSpeedStat>
+		<workAmount>2000</workAmount>
+		<effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_CookMeal</soundWorking>
+	<recipeUsers>
+		<li>ElectricStove</li>
+		<li>FueledStove</li>
+		<li>Campfire</li>
+	</recipeUsers>
+    <allowMixingIngredients>true</allowMixingIngredients>
+    <ingredientValueGetterClass>IngredientValueGetter_Nutrition</ingredientValueGetterClass>
+    <ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Jerky</li>
+					</thingDefs>
+				</filter>
+				<count>1.5</count>
+			</li>
+			<li>
+				<filter>
+					<categories>
+						<li>PlantFoodRaw</li>
+					</categories>
+				</filter>
+				<count>1.25</count>
+			</li>
+		</ingredients>
+		<products>
+			<MealFine>5</MealFine>
+		</products>
+		<fixedIngredientFilter>
+			<categories>
+				<li>PlantFoodRaw</li>
+			</categories>
+			<thingDefs>
+				<li>Jerky</li>
+			</thingDefs>
+			<disallowedSpecialFilters>
+				<li>AllowPlantFood</li>
+			</disallowedSpecialFilters>
+		</fixedIngredientFilter>
+		<defaultIngredientFilter>
+			<categories>
+				<li>PlantFoodRaw</li>
+			</categories>
+			<thingDefs>
+				<li>Jerky</li>
+			</thingDefs>
+		</defaultIngredientFilter>
+		<skillRequirements>
+			<li>
+				<skill>Cooking</skill>
+				<minLevel>6</minLevel>
+			</li>
+		</skillRequirements>
+    <workSkill>Cooking</workSkill>
+
+
+	</RecipeDef>
+
+</RecipeDefs>
