@@ -13,7 +13,7 @@
 	<stackLimit>250</stackLimit>
     <description>Meat that's been smoked for preservation. Sort of tasty, but hard to chew. It lasts a long time without refrigeration.</description>
     <graphicData>
-      <texPath>Items/RmxSmokedMeat</texPath>
+      <texPath>Items/TamSmokedMeat</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <statBases>
@@ -32,7 +32,7 @@
     <comps>
       <li Class="CompProperties_Rottable">
         <daysToRotStart>30</daysToRotStart>
-        <rotDestroys>true</rotDestroys>
+        <rotDestroys>false</rotDestroys> <!-- Rotten food becomes useful as compost with Rainbeau's Fertile Fields. Also, "yuck, I ate rotten food" exists now, so actually I see no point destroying it. -->
       </li>
       <li Class="CompProperties_Ingredients" />
       <li Class="CompProperties_FoodPoisonable" />
