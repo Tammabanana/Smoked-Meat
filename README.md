@@ -14,4 +14,4 @@ Meat can be preserved by drying and smoking it. Smoking meat takes a long time, 
 
 * I've made the delay agent on smokehouse-building the requirement for lots of construction materials instead of a Research prerequisite.
   
-Prior-alpha versions can be found on https://github.com/Tammabanana/Smokepit/releases
+Prior-alpha versions can be found on https://github.com/Tammabanana/Smoked-Meat/releases
