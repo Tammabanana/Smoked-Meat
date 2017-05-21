@@ -35,7 +35,7 @@
     </statBases>
     <Size>(3,3)</Size>
     <DesignationCategory>Production</DesignationCategory>
-    <Passability>Impassable</Passability>
+    <Passability>PassThroughOnly</Passability>
     <castEdgeShadows>false</castEdgeShadows>
     <hasInteractionCell>True</hasInteractionCell>
     <interactionCellOffset>(0,0,-2)</interactionCellOffset>
