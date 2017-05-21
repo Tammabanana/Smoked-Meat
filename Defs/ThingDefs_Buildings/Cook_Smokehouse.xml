@@ -53,7 +53,7 @@
       <li Class="CompProperties_Refuelable">
         <fuelConsumptionRate>2.0</fuelConsumptionRate>
         <fuelCapacity>50.0</fuelCapacity>
-        <fuelConsumptionPerTickInRain>0.006</fuelConsumptionPerTickInRain>
+        <fuelConsumptionPerTickInRain>0.0006</fuelConsumptionPerTickInRain>
         <fuelFilter>
           <thingDefs>
             <li>WoodLog</li>

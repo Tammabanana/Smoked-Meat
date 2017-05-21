@@ -16,6 +16,7 @@
       <texPath>Items/TamSmokedMeat</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
+    <socialPropernessMatters>true</socialPropernessMatters>	
     <statBases>
       <MarketValue>3.1</MarketValue>
 	  <Mass>0.021</Mass>

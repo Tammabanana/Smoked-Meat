@@ -24,7 +24,7 @@
     <constructEffect>ConstructDirt</constructEffect>
     <tickerType>Normal</tickerType>
     <drawerType>RealtimeOnly</drawerType>
-    <fillPercent>0.25</fillPercent>
+    <fillPercent>0.20</fillPercent>
     <statBases>
       <MaxHitPoints>40</MaxHitPoints>
       <WorkToBuild>100</WorkToBuild>
