@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<WorkGivers> 
+
+ <WorkGiverDef>
+    <defName>DoBillsSmokeMeat</defName>
+    <label>smoke meat</label>
+    <giverClass>WorkGiver_DoBill</giverClass>
+    <workType>Cooking</workType>
+    <priorityInType>104</priorityInType>
+    <fixedBillGiverDefs>
+      <li>Smokepit</li>
+	  <li>SmokeHouse</li>
+    </fixedBillGiverDefs>
+    <verb>smoke</verb>
+    <gerund>smoking</gerund>
+    <requiredCapacities>
+      <li>Manipulation</li>
+    </requiredCapacities>
+    <prioritizeSustains>true</prioritizeSustains>
+  </WorkGiverDef>
+  
+  </WorkGivers>
