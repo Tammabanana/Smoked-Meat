@@ -3,7 +3,7 @@
 <ModMetaData>
   <name>Smoked meat</name>
   <author>Tammabanana</author>
-  <targetVersion>0.17</targetVersion>
+  <targetVersion>0.17.1543</targetVersion>
   <description>Meat can be preserved by drying and smoking it. Smoking meat takes a long time, but you can make a lot simultaneously.
 
 	* Smoked meat lasts 2 seasons. It's categorized under MeatRaw, so that it can be used in all recipes that use meat, like meals and kibble.
